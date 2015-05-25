@@ -230,12 +230,13 @@ a:link{
 }
 .header-1{
   font-family: arial;
-  font-color: #555;
+  font-color: #706666;
   font-size: 13px;
   font-weight: bold;
   display: inline-block;
   margin-left: 10%;
   margin-top: 3%;
+  padding-bottom: 10px;
 }
 .link-categories{
   color:#0093b2;
@@ -275,10 +276,58 @@ a:link{
   margin-top: 3%;
 }
 .link-rel{
+  position: relative;
+  left: -18%;
   color:#0093b2;
-  vertical-align: top;
-  display: inline-block;
+  display: inline;
   text-decoration: none;
   font-family: arial;
-  font-size: 8pt;
+}
+.link-rel:hover{
+  position: relative;
+  left: -18%;
+  color:#0093b2;
+  display: inline;
+  text-decoration: underline;
+  font-family: arial;
+}
+.sidebar{
+  height: 565px;
+  width: 255px;
+  background: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: #e1e3df;
+  margin-left: 10%;
+}
+.sb-categories{
+  position: relative;
+  left: -35px;
+  color: #55556b;
+  font-family: arial;
+  font-weight: bold;
+  text-decoration: none;
+}
+.sb-categories:hover{
+  position: relative;
+  left: -35px;
+  color: #55556b;
+  font-family: arial;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.sb-link{
+  position: relative;
+  left: -20px;
+  color:#0093b2;
+  text-decoration: none;
+  font-family: arial;
+}
+.sb-link:hover{
+  position: relative;
+  left: -20px;
+  color:#0093b2;
+  text-decoration: underline;
+  font-family: arial;
 }
