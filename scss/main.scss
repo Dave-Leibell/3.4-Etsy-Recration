@@ -16,11 +16,13 @@ body{
   border-left: none;
   border-right: none;
   border-width: 1px;
-  border-color: #d9d9d6;
+  border-color: #d9d9d6;-webkit-box-shadow: 0px 0.25px 10px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0.25px 10px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 0.25px 10px -4px rgba(0,0,0,0.75);
 }
 .logo{
   display: inline-block;
-  margin-left: 10.75%;
+  margin-left: 10%;
   height: 75px;
   width: 80px;
 }
@@ -35,7 +37,39 @@ input{
   padding-left: 9.5px;
   border-width: 1px;
   border-style: solid;
-  border-color: #34a8c4;
+  background: #fbfbfa;
+  border-color: #cfcbc8;
+  outline: none;
+  border-radius: 3px;
+}
+input:hover{
+  vertical-align: top;
+  margin-top: 23px;
+  margin-left: 10px;
+  height: 29px;
+  width: 235px;
+  font-family: arial;
+  font-size: 10.5pt;
+  padding-left: 9.5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #b8b3af;
+  outline: none;
+  border-radius: 3px;
+}
+input:active{
+  vertical-align: top;
+  margin-top: 23px;
+  margin-left: 10px;
+  height: 29px;
+  width: 235px;
+  font-family: arial;
+  font-size: 10.5pt;
+  padding-left: 9.5px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #ffffff;
+  border-color: #0ca9c1;
   outline: none;
   border-radius: 3px;
 }
@@ -43,7 +77,24 @@ input{
   vertical-align: top;
   margin-top: 23px;
   margin-left: 0;
-  background: #34a8c4;
+  background: #0ba7be;
+  border-style: solid;
+  border-color: #34a8c4;
+  outline: none;
+  border-radius: 3px;
+  outline: none;
+  height: 34px;
+  width: 79px;
+  font-family: arial;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 11pt;
+}
+.searchbutton:hover{
+  vertical-align: top;
+  margin-top: 23px;
+  margin-left: 0;
+  background: #30aec4;
   border-style: solid;
   border-color: #34a8c4;
   outline: none;
@@ -73,4 +124,107 @@ input{
   border-color: #d9d9d6;
   border-width: 1px;
   border-radius: 3px;
+}
+.dropdown:hover{
+  vertical-align: top;
+  margin-top: 23px;
+  margin-left: 15px;
+  height: 34px;
+  width: 83px;
+  font-family: arial;
+  font-size: 11pt;
+  text-align: left;
+  padding-left: 10px;
+  color: #666666;
+  background: #ffffff;
+  outline: none;
+  border-style: solid;
+  border-color: #6a6a6a;
+  border-width: 1px;
+  border-radius: 3px;
+}
+a:link{
+  color:#0093b2;
+  vertical-align: middle;
+  padding-bottom: 5px;
+  margin-left: 18%;
+  text-decoration: none;
+  font-family: arial;
+  font-size: 11pt;
+}
+.link:active{
+  color:#0093b2;
+  vertical-align: middle;
+  padding-bottom: 5px;
+  margin-left: 18%;
+  text-decoration: none;
+  font-family: arial;
+  font-size: 11pt;
+}
+.link:visited{
+  color:#0093b2;
+  vertical-align: middle;
+  padding-bottom: 5px;
+  margin-left: 18%;
+  text-decoration: none;
+  font-family: arial;
+  font-size: 11pt;
+}
+.link:hover{
+  color:#0093b2;
+  vertical-align: middle;
+  padding-bottom: 5px;
+  margin-left: 18%;
+  text-decoration:underline;
+  font-family: arial;
+  font-size: 11pt;
+}
+.signin{
+  vertical-align: top;
+  margin-top: 23px;
+  margin-left: 15px;
+  height: 35px;
+  width: 65px;
+  font-family: arial;
+  font-size: 11pt;
+  text-align: center;
+  color: #0093b2;
+  background: #ffffff;
+  outline: none;
+  border-style: solid;
+  border-color: #0093b2;
+  border-width: 1px;
+  border-radius: 3px;
+}
+.signin:hover{
+  vertical-align: top;
+  margin-top: 23px;
+  margin-left: 15px;
+  height: 35px;
+  width: 65px;
+  font-family: arial;
+  font-size: 11pt;
+  text-align: center;
+  color: #0093b2;
+  background: #effbfd;
+  outline: none;
+  border-style: solid;
+  border-color: #0093b2;
+  border-width: 1px;
+  border-radius: 3px;
+}
+.vr{
+  display: inline;
+  border: solid;
+  border-width: 1px;
+  color: #eeeeee;
+  height: 500px;
+  margin-left: 10px;
+}
+.cart{
+  display: inline;
+  margin-left: 15px;
+  font-family: arial;
+  color: #938888;
+  font-size: 9pt;
 }
