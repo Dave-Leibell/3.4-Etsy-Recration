@@ -458,7 +458,133 @@ a:link{
 }
 .div-2{
   width: 95%;
+  color: #fbfbfa;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.header-colorfilter{
+  font-family: arial;
+  font-color: #555569;
+  font-size: 15px;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+.colorselect-r{
+  height: 22px;
+  width: 22px;
+  background: #fe0034;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 3px;
+  margin-left: 5%;
+  outline: none;
+}
+.colorselect-o{
+  height: 22px;
+  width: 22px;
+  background: #ff7c2b;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 3px;
+  outline: none;
+}
+.colorselect-y{
+  height: 22px;
+  width: 22px;
+  background: #f3cc0c;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 3px;
+  outline: none;
+}
+.colorselect-g{
+  height: 22px;
+  width: 22px;
+  background: #00c23f;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 3px;
+  outline: none;
+}
+.colorselect-b{
+  height: 22px;
+  width: 22px;
+  background: #00cdef;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 3px;
+  outline: none;
+}
+.colorselect-p{
+  height: 22px;
+  width: 22px;
+  background: #af12e9;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 3px;
+  outline: none;
+}
+.colorselect-blk{
+  height: 22px;
+  width: 22px;
+  background: #000;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 3px;
+  outline: none;
+}
+.colorselect-w{
+  height: 22px;
+  width: 22px;
+  background: #ffffff;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 3px;
+  outline: none;
+}
+.div-3{
+  width: 95%;
   color: #e1e3e0;
   margin-top: 20px;
   margin-bottom: 10px;
+}
+.header-ordering{
+  font-family: arial;
+  font-color: #555569;
+  font-size: 15px;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+.checkbox{
+  position: relative;
+  left: 20px;
+  color:#0093b2;
+  text-decoration: none;
+  font-family: arial;
+}
+.checkbox:hover{
+  position: relative;
+  left: 20px;
+  color:#0093b2;
+  text-decoration: underline;
+  font-family: arial;
+}
+.div-4{
+  width: 95%;
+  color: #e1e3e0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.header-location{
+  font-family: arial;
+  font-color: #555569;
+  font-size: 15px;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 5%;
+  margin-top: 3%;
 }
